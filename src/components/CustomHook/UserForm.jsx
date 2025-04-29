@@ -5,7 +5,6 @@ const UserForm = () => {
   const [firstName, bindFirstName, resetFName] = useInput("");
   const [lastName, bindLastName, resetLName] = useInput("");
   let handleSubmit = (event) => {
-    // console.log(this.state)
     alert(`${firstName} and ${lastName}`);
     resetFName();
     resetLName();
